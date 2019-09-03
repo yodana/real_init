@@ -1,0 +1,1 @@
+Le fichier ou se trouve les cles RSA permettant de voir les machines autorisees a se connecter via SSH est authorized_keys situe dans le dossier ssh 
