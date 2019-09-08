@@ -1,0 +1,7 @@
+alsa-utils    console-setup.sh  keyboard-setup.sh  plymouth-log  speech-dispatcher    x11-common
+anacron       cron              kmod               pppd-dns      ssh
+apparmor      dbus              networking         procps        sudo
+avahi-daemon  gdm3              network-manager    rsyslog       udev
+bluetooth     hwclock.sh        plymouth           saned         unattended-upgrades
+
+Ces services sont appelles des daemons
