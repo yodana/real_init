@@ -1,0 +1,2 @@
+$USER=(who | grep $2);
+cat $USER
