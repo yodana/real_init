@@ -1,0 +1,1 @@
+cat /etc/passwd | sed '/#/d' | awk -F: '{print "Login="$1"\tUID="$3"\tPath="$6}'

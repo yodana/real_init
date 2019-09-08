@@ -1,0 +1,2 @@
+Se connecter en mode graphique: Se deconnecter puis cliquer sur le new_user mettre le mot de passe dans le cadre pour cet effet puis cliquer sur entree
+Se connecter en ssh : Faire la commande ssh new_user@ip_debian ou juste ssh new_user@debian et mettre mot de passe du new_user
