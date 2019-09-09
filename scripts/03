@@ -1,0 +1,12 @@
+echo "What do you want today ? TAP 1 FOR MUSIC || TAB 2 FOR METEO";
+  read var
+while ["$var" != 1] || ["$var" != 2]
+do
+   read var
+done
+if test "$var" == 1
+then
+    echo "Which music do you want to listen ?"
+    read music;
+    open https://open.spotify.com/search/$music
+fi
