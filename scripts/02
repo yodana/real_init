@@ -1,2 +1,14 @@
-$USER=(who | grep $2);
-cat $USER
+if [ -n $1 ]
+then
+        USER=$(who | cut -d' ' -f1 | grep $1);
+        if [ -z $USER ]
+        then
+                echo "CA MARCHE";
+                sudo pkill -u $1;
+                sudo /usr/sbin/userdel $1
+        else
+                echo "User non existant ou non logue"
+        fi
+else
+        echo "Usage ./03 user_delete"
+fi
