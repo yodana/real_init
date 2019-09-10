@@ -1,9 +1,8 @@
-Server:         10.51.1.42
-Address:        10.51.1.42#53
+Server:         89.2.0.1
+Address:        89.2.0.1#53
 
+Non-authoritative answer:
 Name:   42.fr
-Address: 10.52.1.11
+Address: 163.172.250.13
 Name:   42.fr
-Address: 10.52.1.12
-Name:   42.fr
-Address: 10.52.1.76
+Address: 163.172.250.12
