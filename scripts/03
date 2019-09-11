@@ -1,6 +1,6 @@
 echo "What do you want today ? TAP 1 FOR MUSIC || TAB 2 FOR METEO";
   read var
-while ["$var" != 1] || ["$var" != 2]
+while [ $var != 1 ] && [ $var != 2 ]
 do
    read var
 done
@@ -9,4 +9,10 @@ then
     echo "Which music do you want to listen ?"
     read music;
     open https://open.spotify.com/search/$music
+fi
+if test "$var" == 2
+then
+  echo "Which city ?"
+  read meteo;
+  curl wttr.in/$meteo
 fi
